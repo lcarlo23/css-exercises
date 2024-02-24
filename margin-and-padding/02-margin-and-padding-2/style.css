@@ -11,17 +11,27 @@ body {
 
 .title {
   background: #e3f4ff;
+  margin: 0;
+  font-size: 20px;
 }
 
 .content {
   background: #e3f4ff;
+  margin: 10px 0;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  margin: auto;
+}
+
+div, h1, button {
+  padding: 10px;
 }
