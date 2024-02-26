@@ -41,7 +41,7 @@ a {
   font-size: 14px;
 }
 
-.header {
+.header, .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,10 +61,6 @@ button {
 
 .footer {
   background-color: #eee;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
 }
 
 .left-links, .right-links {
